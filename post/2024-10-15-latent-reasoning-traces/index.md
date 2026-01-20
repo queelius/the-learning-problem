@@ -1,9 +1,4 @@
 ---
-author:
-  name: "Alex Towell"
-  email: "queelius@gmail.com"
-  url: "https://metafunctor.com"
-
 title: "Latent Reasoning Traces: Memory as Learned Prior"
 date: 2024-10-15
 draft: false

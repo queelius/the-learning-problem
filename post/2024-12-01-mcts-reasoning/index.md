@@ -1,9 +1,4 @@
 ---
-author:
-  name: "Alex Towell"
-  email: "queelius@gmail.com"
-  url: "https://metafunctor.com"
-
 title: "MCTS-Reasoning: Tree Search for LLM Reasoning"
 date: 2024-12-01
 draft: false

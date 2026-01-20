@@ -1,18 +1,24 @@
-# The Learning Problem
+---
+title: "The Learning Problem"
+description: "Essays on induction, inference, and the search for useful representations"
+---
+
+## The Problem
 
 How do you learn anything at all?
 
-Solomonoff induction tells you how to do it optimally: consider all hypotheses, weight by simplicity, update on evidence. It's mathematically beautiful. It's also incomputable.
+Solomonoff induction tells you how to do it optimally: consider all hypotheses, weight by simplicity, update on evidence. It's mathematically beautiful.
+
+It's also incomputable.
 
 Every practical learning algorithm is an approximation. And every approximation encodes assumptions—about what patterns are likely, what representations are useful, what search strategies will find good solutions.
 
-**These assumptions are priors. They're the maps we use to navigate hypothesis space.**
+These assumptions are priors. They're the maps we use to navigate hypothesis space.
 
 ## The Theme
 
 These essays explore a single idea from multiple angles:
-
-> Learning is constrained search, and the constraints shape what gets learned.
+**learning is constrained search, and the constraints shape what gets learned.**
 
 - All induction is Bayesian inference with different knobs
 - The simplest learning is impossible, forcing approximations
@@ -33,7 +39,3 @@ These essays explore a single idea from multiple angles:
 If the learning problem is fundamentally about search, and search requires priors, what should those priors be?
 
 Where should we look?
-
----
-
-*By [Alex Towell](https://metafunctor.com). These posts also appear on [metafunctor.com](https://metafunctor.com/series/the-learning-problem/).*

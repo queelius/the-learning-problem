@@ -1,9 +1,4 @@
 ---
-author:
-  name: "Alex Towell"
-  email: "queelius@gmail.com"
-  url: "https://metafunctor.com"
-
 title: "All Induction Is the Same Induction"
 date: 2024-09-30
 tags: ["machine-learning", "solomonoff-induction", "bayesian-inference", "information-theory", "philosophy"]

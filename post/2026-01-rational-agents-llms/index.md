@@ -1,9 +1,4 @@
 ---
-author:
-  name: "Alex Towell"
-  email: "queelius@gmail.com"
-  url: "https://metafunctor.com"
-
 title: "From A* to GPT: Rational Agents and the Representation Problem"
 date: 2026-01-15
 draft: false

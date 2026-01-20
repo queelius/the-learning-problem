@@ -1,9 +1,4 @@
 ---
-author:
-  name: "Alex Towell"
-  email: "queelius@gmail.com"
-  url: "https://metafunctor.com"
-
 title: "Value Functions Over Reasoning Traces"
 date: 2026-01-18
 draft: false

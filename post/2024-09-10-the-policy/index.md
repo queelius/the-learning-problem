@@ -1,9 +1,4 @@
 ---
-author:
-  name: "Alex Towell"
-  email: "queelius@gmail.com"
-  url: "https://metafunctor.com"
-
 title: "The Policy: When Optimization Becomes Existential Threat"
 date: 2024-09-10
 draft: false
