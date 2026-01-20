@@ -1,0 +1,74 @@
+site_name: "The Learning Problem"
+site_description: "Essays on induction, inference, and the search for useful representations"
+site_author: "Alex Towell"
+repo_url: https://github.com/queelius/the-learning-problem
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/queelius
+    - icon: fontawesome/solid/globe
+      link: https://metafunctor.com
+    - icon: fontawesome/solid/envelope
+      link: mailto:queelius@gmail.com
+
+copyright: "Copyright &copy; 2024-2026 Alex Towell"
+
+nav:
+  - Home: index.md
+  - Posts:
+      - "The Policy": post/2024-09-10-the-policy/index.md
+      - "All Induction Is the Same": post/2024-09-30-universal-bayes/index.md
+      - "Latent Reasoning Traces": post/2024-10-15-latent-reasoning-traces/index.md
+      - "MCTS-Reasoning": post/2024-12-01-mcts-reasoning/index.md
+      - "Incomputability of Simple Learning": post/2025-12-19-incomputability-of-simple-learning/index.md
+      - "Value Functions Over Traces": post/2026-01-18-value-functions-reasoning-traces/index.md
+      - "From A* to GPT": post/2026-01-rational-agents-llms/index.md
+  - About: about.md
