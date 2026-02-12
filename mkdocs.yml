@@ -64,11 +64,11 @@ copyright: "Copyright &copy; 2024-2026 Alex Towell"
 nav:
   - Home: index.md
   - Posts:
-      - "The Policy": post/2024-09-10-the-policy/index.md
-      - "All Induction Is the Same": post/2024-09-30-universal-bayes/index.md
-      - "Latent Reasoning Traces": post/2024-10-15-latent-reasoning-traces/index.md
-      - "MCTS-Reasoning": post/2024-12-01-mcts-reasoning/index.md
-      - "Incomputability of Simple Learning": post/2025-12-19-incomputability-of-simple-learning/index.md
-      - "Value Functions Over Traces": post/2026-01-18-value-functions-reasoning-traces/index.md
       - "From A* to GPT": post/2026-01-rational-agents-llms/index.md
+      - "Value Functions Over Traces": post/2026-01-18-value-functions-reasoning-traces/index.md
+      - "Incomputability of Simple Learning": post/2025-12-19-incomputability-of-simple-learning/index.md
+      - "MCTS-Reasoning": post/2024-12-01-mcts-reasoning/index.md
+      - "Latent Reasoning Traces": post/2024-10-15-latent-reasoning-traces/index.md
+      - "All Induction Is the Same": post/2024-09-30-universal-bayes/index.md
+      - "The Policy": post/2024-09-10-the-policy/index.md
   - About: about.md
